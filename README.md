@@ -1,5 +1,7 @@
 # microgpt-name-gen
 
+A small MicroGPT-based name generator. This project is mostly based on Andrej Karpathy's microGPT gist. The main changes are the addition of a nice CLI interface to the program.
+
 [![Copier](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/copier-org/copier/master/img/badge/badge-grayscale-inverted-border-orange.json)](https://github.com/copier-org/copier)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 
