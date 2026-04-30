@@ -6,6 +6,9 @@ set shell := ["bash", "-euc"]
 default:
   @just --list
 
+run *args:
+    uv run microgpt-name-gen {{args}}
+
 # Synchronize dependencies from lockfile
 sync:
     uv sync
