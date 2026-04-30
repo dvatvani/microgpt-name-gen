@@ -1,0 +1,7 @@
+# Changes here will be overwritten by Copier
+_commit: d045028
+_src_path: https://github.com/dvatvani/python_template.git
+github_username: dvatvani
+include_marimo: false
+package_name: microgpt-name-gen
+project_description: A minimal gpt-based name generator
