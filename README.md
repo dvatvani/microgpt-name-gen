@@ -45,11 +45,7 @@ Congratulations! You're now ready to use your new project :sparkles:
 
 Run tasks with `just <recipe>`. All commands are defined in-place in `justfile`.
 
-- `build` — Remove `dist/` and build the project with `uv build`.
 - `install` — Run `sync` and install pre-commit hooks.
-- `lint` — Check code format and lint with [ruff](https://github.com/astral-sh/ruff).
-- `github-tag` — Bump version with Commitizen, create a git tag, and push.
-- `print-version` — Print the current project version.
+- `check` — Check code format and lint with [ruff](https://github.com/astral-sh/ruff) and [ty](https://github.com/astral-sh/ty) for type checking.
 - `sync` — Synchronize dependencies with `uv sync`.
-- `tests` — Run pytest and remove `__pycache__`/`.pyc` files.
-- `type-check` — Run type checking with [ty](https://github.com/astral-sh/ty).
+- `test` — Run pytest and remove `__pycache__`/`.pyc` files.
