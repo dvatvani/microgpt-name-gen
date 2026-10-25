@@ -53,6 +53,7 @@ pythonpath = [
 
 [tool.ruff]
 respect-gitignore = true
+extend-exclude = ["marimo_notebooks"]
 
 [tool.commitizen]
 version_provider = "uv"
